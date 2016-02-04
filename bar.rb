@@ -1,7 +1,7 @@
-require './beer.rb'
-require './person.rb'
-require './bartender.rb'
-require './customer.rb'
+require './beer'
+require './person'
+require './bartender'
+require './customer'
 
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
