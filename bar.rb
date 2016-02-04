@@ -2,7 +2,6 @@ require './beer'
 require './person'
 require './bartender'
 require './customer'
-
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
 
