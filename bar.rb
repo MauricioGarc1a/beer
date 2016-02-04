@@ -3,8 +3,10 @@ require './person'
 require './bartender'
 require './customer'
 
-the_bartender = Bartender.new("Joe")
+
 captain_jack = Customer.new("Cpt. Jack")
+the_bartender = Bartender.new("Joe")
+
 ​
 the_bartender.greet(captain_jack)
 the_bartender.serve(captain_jack)
