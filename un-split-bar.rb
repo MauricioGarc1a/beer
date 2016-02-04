@@ -1,9 +1,6 @@
 class Beer
   # We ONLY want to be able to read @amount, not
   # change it without calling "sip!"
-
-
-  #comments on un-split 
   attr_reader :amount
 
   def initialize
