@@ -102,7 +102,6 @@ class Customer < Person
     @beers_had.last
   end
 end
-
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
 
