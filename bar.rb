@@ -1,5 +1,7 @@
 require './beer.rb'
 require './person.rb'
+require './bartender.rb'
+require './costumer.rb'
 
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
